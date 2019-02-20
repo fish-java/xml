@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "./6.dtd">
+<root >
+  <person id="7570">
+    <name>lishuai</name>
+    <age>66</age>
+  </person>
+
+  <person id="9527">
+    <name>lishuai</name>
+    <age>66</age>
+  </person>
+
+  <animal >
+    <cat name="Jow" age="3"></cat>
+    <cat name="Biu" age="2"></cat>
+    <dog name="Goe" age="2.3"></dog>
+  </animal>
+</root>

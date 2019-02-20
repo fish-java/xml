@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (person+, animal*)>
+  
+  <!ELEMENT person (name, age)>
+    <!ATTLIST person id CDATA #REQUIRED>
+
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+  
+  <!ELEMENT animal (cat*, dog*)>
+
+    <!ELEMENT cat (#PCDATA)>
+      <!ATTLIST cat name CDATA #REQUIRED>
+      <!ATTLIST cat age CDATA "2">
+
+    <!ELEMENT dog (#PCDATA)>
+      <!ATTLIST dog name CDATA #REQUIRED>
+      <!ATTLIST dog age CDATA "2">

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ELEMENT root (person+, animal*)>
+  
+  <!ELEMENT person (name, age)>
+    <!ATTLIST person id CDATA #REQUIRED>
+
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+  
+  <!ELEMENT animal (cat*, dog*)>
+
+    <!ELEMENT cat (#PCDATA)>
+      <!ATTLIST cat name CDATA #REQUIRED>
+      <!ATTLIST cat age CDATA "2">
+
+    <!ELEMENT dog (#PCDATA)>
+      <!ATTLIST dog name CDATA #REQUIRED>
+      <!ATTLIST dog age CDATA "2">
+]>
+<root >
+  <person id="7570">
+    <name>lishuai</name>
+    <age>66</age>
+  </person>
+
+  <person id="9527">
+    <name>lishuai</name>
+    <age>66</age>
+  </person>
+
+  <animal >
+    <cat name="Jow" age="3"></cat>
+    <cat name="Biu" age="2"></cat>
+    <dog name="Goe" age="2.3"></dog>
+  </animal>
+</root>

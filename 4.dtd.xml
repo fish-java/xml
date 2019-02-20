@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE name [
+]>
+<root xmlns="http://bitfish.xyz/xml">
+  <person>
+    <nam>lishuai</nam>
+    <age>66</age>
+
+  </person>
+  <!--通过修饰符来确认某个元素是属于哪个名称空间的-->
+  <animal xmlns:an="http://bitfish.xyz/xml/an">
+    <an:cat name="Jow" age="3"></an:cat>
+    <an:cat> name="Biu" age="2"></an:cat>
+    <an:dog name="Goe" age="2.3"></an:dog>
+  </animal>
+</root>

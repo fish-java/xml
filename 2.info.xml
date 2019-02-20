@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--version 是干什么的？不清楚-->
+<root>
+  <person>
+    <nam>lishuai</nam>
+    <age>66</age>
+  </person>
+  <animal>
+    <cat name="Jow" age="3"></cat>
+    <cat name="Biu" age="2"></cat>
+    <dog name="Goe" age="2.3"></dog>
+  </animal>
+</root>
