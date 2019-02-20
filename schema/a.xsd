@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!--schema.xmlns: schema文件本生也需要被约束，
+也就是w3.org  引用的时候直接从网络上下载-->
+
+<!--schema.targetNamespace: 下面的元素被绑定到这个命名空间中-->
+
+<!--schema.elementFor...: 元素的格式化情况-->
+<schema 
+xmlns="https://www.w3.org/2001/XMLSchema" 
+targetNamespace="fish-name" 
+elementFormDefault="qualified">
+  <element name="name">
+    <complexType>
+      <sequence>
+        <element name="first" type="string"></element>
+        <element name="middle" type="string"></element>
+        <element name="last" type="string"></element>
+      </sequence>
+      <attribute name="title" type="string"></attribute>
+    </complexType>
+  </element>
+</schema>

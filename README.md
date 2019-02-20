@@ -1,4 +1,7 @@
 # XML
+- 文档声明 
+- dom树
+
 js中 XMLHttpRequest
 java中还是用它做配置文件
 。。。
