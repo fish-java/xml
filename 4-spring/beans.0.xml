@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans [
+  <!ELEMENT beans (bean+)>
+  <!ELEMENT bean (#PCDATA)>
+    <!ATTLIST bean id CDATA #REQUIRED>
+    <!ATTLIST bean class CDATA #REQUIRED>
+]>
+<beans>
+  <bean id="cat" class="Cat"></bean>
+</beans>

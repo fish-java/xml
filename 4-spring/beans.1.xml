@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+xmlns:xsi 它的值是固定的，表明这是一个被约束的文档
+
+xsi:schemaLocation {namespace} {location}
+我的location就在下图所示的位置
+
+而namespace 必须和xsd文件的 targetNamespace保持一致
+-->
+<beans 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xmlns="http://www.springframework.org/schema/beans"
+xsi:schemaLocation=
+"http://www.springframework.org/schema/beans 
+./spring-beans.xsd">
+
+  <bean id="cat" class="Cat"></bean>
+</beans>
+
+<!--
+流程：
+  1. 直接写xmlns:xsi
+  2. 查看文档，搞清楚要找哪个schema
+  3. 找到schema后，写到xsi:schemaLocation
+  4. 根据xsd中定义的namespace，写到这个文档
+-->

@@ -7,7 +7,7 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
 xmlns="fish-name"
-xsi:schemaLocation="fish-name a.xsd">
+xsi:schemaLocation="fish-name ./a.xsd">
   <first>d</first>
   <middle>d</middle>
   <last>dfs</last>

@@ -11,7 +11,7 @@ public class Parser{
   public static void main(String[] args) throws Exception{
 
     SAXReader reader = new SAXReader();
-    Document doc = reader.read(new File(".", "6.extnal.xml"));
+    Document doc = reader.read(new File(".", "conf.xml"));
     // System.out.println(doc);
     Element root = doc.getRootElement();
     System.out.println(root.getName());
